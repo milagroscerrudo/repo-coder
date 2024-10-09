@@ -40,8 +40,19 @@ color: #00193e;
 color: #00193e;
 }
 
+/* REMERAS */
+.remeras-titulo{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
 
-
+/* CHOMBAS */
+.chombas-titulo{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
 
 
 
