@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -9,19 +9,38 @@
 
 }
 
+/* anuncio */
 .container-anuncio{
-  display: flex;
-  margin: 2px;
-  background-color: black; 
-  justify-content: center;
+display: flex;
+background-color: #00193e; 
+justify-content: center;
 }
 
 .anuncio-inicio{
-  color: white;  
-  font-size: 1rem;
-  
-       
+color: white;  
+font-size: 1rem;
+padding: 1rem;
+     
 }
+
+/* NAVBAR */
+.bg-coder{
+background-color: white;
+}
+
+.boton-indumentaria{
+color: #00193e;
+}
+
+.boton-accesorios{
+color: #00193e;
+}
+
+.boton-calzados{
+color: #00193e;
+}
+
+
 
 
 
