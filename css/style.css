@@ -54,7 +54,16 @@ color: #00193e;
   font-size: 2rem;
 }
 
+/* PANTALONES */
+.pantalones-titulo{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
 
-
-
-
+/* Accesorios */
+.accesorios-titulo{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
