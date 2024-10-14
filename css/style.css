@@ -1,69 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 
-
-
-@media (max-width:767px){
-
-}
-
-/* anuncio */
-.container-anuncio{
-display: flex;
-background-color: #00193e; 
-justify-content: center;
-}
-
-.anuncio-inicio{
-color: white;  
-font-size: 1rem;
-padding: 1rem;
-     
-}
-
-/* NAVBAR */
-.bg-coder{
-background-color: white;
-}
-
-.boton-indumentaria{
-color: #00193e;
-}
-
-.boton-accesorios{
-color: #00193e;
-}
-
-.boton-calzados{
-color: #00193e;
-}
-
-/* REMERAS */
-.remeras-titulo{
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 2rem;
-}
-
-/* CHOMBAS */
-.chombas-titulo{
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 2rem;
-}
-
-/* PANTALONES */
-.pantalones-titulo{
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 2rem;
-}
-
-/* Accesorios */
-.accesorios-titulo{
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 2rem;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: expected more input.\a   \2577 \a 1 \2502  @import \d\a   \2502          ^\a   \2575 \a   scss\\style.scss 1:9  root stylesheet";
 }
