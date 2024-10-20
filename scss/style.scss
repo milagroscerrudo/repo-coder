@@ -1,77 +1,23 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+@import "base/reset.scss";
+@import "layout/anuncio";
+@import "layout/header";
+@import "components/botones";
+@import "media-queries/media-mobile";
+@import "media-queries/media-desktop";
+@import "utilities/extend";
+@import "utilities/mixins";
+@import "utilities/variables";
 
 
 
-.container-anuncio {
-    background-color: #00193e;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 1px;
-}
 
-.anuncio-inicio{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 1rem;
-    
-}
 
-@media (max-width:768px){
-      header{
-        align-items: center;
-      }
-    
-      .logo-airborn{
-        width: 50%;
-        height: 50%;
-      }
-      
-}
 
-@media (min-width:768px) and (max-width:1024px){
-    header{
-        align-items: center;
-      }
 
-    .logo-airborn{
-        width: 250px;
-        
-    }  
-}
 
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    border-bottom: #00193e;
-    img{
-       
-       width: 30%;
-        padding: 5px;
-    }
 
-    nav{
-        ul{
-          display: flex;
-         list-style: none;
-         justify-content: center;
-         padding: 15px;
-         li{
-          margin: 5px;
-          a{
-              text-decoration: none;
-              color: black;
-              font-family: Arial, Helvetica, sans-serif;
-          }
-         }
-        }
-      }
 
-    
-}
+
 
 
 
