@@ -1,18 +1,70 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "utilities/variables";
- *   |         ^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss\layout\_anuncio.scss 1:9  @import
- *   scss\style.scss 2:9            root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"utilities/variables\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\layout\\_anuncio.scss 1:9  @import\a   scss\\style.scss 2:9            root stylesheet";
+* {
+  padding: 0;
+  margin: 0;
 }
+
+.container-anuncio {
+  background-color: #00193e;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 1px;
+}
+
+.anuncio-inicio {
+  font-family: arial;
+  color: white;
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: #00193e;
+}
+header img {
+  width: 30%;
+  padding: 5px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 15px;
+}
+header nav ul li {
+  margin: 5px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+}
+
+@media (max-width: 768px) {
+  header {
+    justify-items: center;
+    align-items: center;
+  }
+  .logo-airborn {
+    width: 50%;
+    height: 50%;
+  }
+  .carrusel-desktop {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    align-items: center;
+  }
+  .logo-airborn {
+    width: 250px;
+  }
+  .carrusel-mobile {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

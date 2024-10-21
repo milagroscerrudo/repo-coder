@@ -1,9 +1,11 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex-variables(flex, space-between, center);
+    
     padding: 15px;
-    border-bottom: #00193e;
+    border-bottom: $color-azul;
     img{
        
        width: 30%;
@@ -20,8 +22,8 @@ header{
           margin: 5px;
           a{
               text-decoration: none;
-              color: black;
-              font-family: Arial, Helvetica, sans-serif;
+              color: $color-negro;
+              font-family: $fuente-principal;
           }
          }
         }
