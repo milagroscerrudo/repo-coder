@@ -19,50 +19,41 @@
 
 
     <header > 
-        
-
-        <!--menu hamburguesa NAVBAR-->
-
-        <nav class="navbar navbar-expand-lg bg-coder">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
-                <img src="/multimedia/logo-airborn.jpg" alt="logo" class="w-50">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    
-                    <!-- LINK INDUMENTARIA-->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle boton-indumentaria" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Indumentaria
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="/html/remeras.html">Remeras</a></li>
-                          <li><a class="dropdown-item" href="/html/chombas.html">Chombas</a></li>
-                          <li><a class="dropdown-item" href="/html/pantalones.html">Pantalones</a></li>
-                        </ul>
-                      </li>
-                  <li class="nav-item">
-
-                    <a class="nav-link active boton-accesorios" aria-current="page" href="/html/accesorios.html">Accesorios</a>
-
-                  <li class="nav-item boton-calzados">
-                        <a class="nav-link active" aria-current="page" href="/html/calzados.html">Calzados</a>
-                     </li>
-
+      <nav class="navbar navbar-expand-lg bg-coder">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/multimedia/logo-airborn.jpg" alt="logo" class="logo-airborn">
+          </a>
+          <button class="navbar-toggler menu-hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  
+              <li><a href="/index.html">Inicio</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle boton-indumentaria" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Indumentaria
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="remeras.html">Remeras</a></li>
+                  <li><a class="dropdown-item" href="chombas.html">Chombas</a></li>
+                  <li><a class="dropdown-item" href="pantalones.html">Pantalones</a></li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="search">
-                  <button class="btn btn-outline-success" type="submit"> 
-                    <img src="/multimedia/icono-busqueda.png" alt="Buscar">
-                  </button>
-                </form>
-              </div>
-            </div>
-          </nav>
+              </li>
+              <li><a href="accesorios.html">Accesorios</a></li>
+              <li><a href="calzados.html">Calzados</a></li>
+              
+            </ul>
+  
+            <form class="d-flex buscador-nav" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="search">
+              <button class="btn btn-outline-secondary" type="submit" >Buscar</button>
+            </form>
+          </div>
+        </div>
+        
+      </nav>
 
     </header>
  
