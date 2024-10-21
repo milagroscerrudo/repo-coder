@@ -1,5 +1,9 @@
+@import "../utilities/variables";
+
+
+
 .container-anuncio {
-    background-color: #00193e;
+    background-color: $color-azul;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 1px;
@@ -7,7 +11,7 @@
 
 .anuncio-inicio{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: $color-blanco;
     font-size: 1rem;
     
 }
