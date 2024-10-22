@@ -1,17 +1,108 @@
-/* Error: expected more input.
- *   ,
- * 8 | @import 
- *   |         ^
- *   '
- *   scss\style.scss 8:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected more input.\a   \2577 \a 8 \2502  @import \d\a   \2502          ^\a   \2575 \a   scss\\style.scss 8:9  root stylesheet";
+* {
+  padding: 0;
+  margin: 0;
 }
+
+.container-anuncio {
+  background-color: #00193e;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 1px;
+}
+
+.anuncio-inicio {
+  font-family: arial;
+  color: white;
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  border-bottom: #00193e;
+}
+header img {
+  width: 30%;
+  padding: 5px;
+}
+header nav {
+  background-color: white;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 15px;
+}
+header nav ul li {
+  margin: 5px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #00193e;
+  font-family: arial;
+}
+header .boton-indumentaria {
+  color: #00193e;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  header {
+    justify-items: center;
+    align-items: center;
+  }
+  .logo-airborn {
+    width: 50%;
+    height: 50%;
+  }
+  .carrusel-desktop {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    align-items: center;
+  }
+  .logo-airborn {
+    width: 250px;
+  }
+  .carrusel-mobile {
+    display: none;
+  }
+}
+.remeras-titulo {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+.container-card {
+  border: 3px solid blue;
+  display: grid;
+  grid-template-columns: 3, 1fr;
+  grid-template-rows: repeat(2, 250px);
+  grid-template-areas: "card-1 card-2 card-3" "card-1 card-2 card-3";
+  gap: 15px;
+  margin: 10px;
+}
+
+.card-1 {
+  background-color: red;
+  grid-area: card-1;
+}
+
+.card-2 {
+  background-color: blue;
+  grid-area: card-2;
+}
+
+.card-3 {
+  background-color: yellow;
+  grid-area: card-3;
+}
+
+/*# sourceMappingURL=style.css.map */

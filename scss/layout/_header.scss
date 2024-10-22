@@ -4,6 +4,7 @@
 header{
     @include flex-variables(flex, space-between, center);
     
+    background-color: $color-blanco;
     padding: 15px;
     border-bottom: $color-azul;
     img{
@@ -13,6 +14,7 @@ header{
     }
 
     nav{
+        background-color: $color-blanco;
         ul{
           display: flex;
          list-style: none;
@@ -22,12 +24,15 @@ header{
           margin: 5px;
           a{
               text-decoration: none;
-              color: $color-negro;
+              color: $color-azul;
               font-family: $fuente-principal;
           }
          }
         }
       }
 
-    
+      .boton-indumentaria{
+        color: $color-azul;
+        text-align: center;
+        }
 }

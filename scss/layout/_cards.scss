@@ -1,0 +1,35 @@
+.remeras-titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+  }
+
+  .container-card{
+    border: 3px solid blue;
+    display: grid;
+    grid-template-columns: (3,1fr);
+    grid-template-rows: repeat(2,250px);
+
+    grid-template-areas: 
+    "card-1 card-2 card-3"
+    "card-1 card-2 card-3";
+
+    gap: 15px;
+    margin: 10px;
+  }
+
+  .card-1{
+     background-color: red;
+     grid-area: card-1;
+  }
+
+  .card-2{
+    background-color: blue;
+    grid-area: card-2;
+
+  }
+  .card-3{
+    background-color: yellow;
+    grid-area: card-3;
+
+  }
