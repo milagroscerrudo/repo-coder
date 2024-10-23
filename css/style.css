@@ -47,7 +47,6 @@ header nav ul li a {
 }
 header .boton-indumentaria {
   color: #00193e;
-  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -73,6 +72,9 @@ header .boton-indumentaria {
   .carrusel-mobile {
     display: none;
   }
+  .boton-indumentaria {
+    text-align: center;
+  }
 }
 .remeras-titulo {
   text-align: center;
@@ -81,28 +83,36 @@ header .boton-indumentaria {
 }
 
 .container-card {
-  border: 3px solid blue;
   display: grid;
   grid-template-columns: 3, 1fr;
-  grid-template-rows: repeat(2, 250px);
+  grid-template-rows: repeat(2, 200px);
   grid-template-areas: "card-1 card-2 card-3" "card-1 card-2 card-3";
-  gap: 15px;
-  margin: 10px;
+  gap: 40px;
+  margin: 20px;
 }
 
 .card-1 {
   background-color: red;
   grid-area: card-1;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .card-2 {
   background-color: blue;
   grid-area: card-2;
+  border-radius: 1rem;
 }
 
 .card-3 {
   background-color: yellow;
   grid-area: card-3;
+  border-radius: 1rem;
+}
+
+.card-imagen {
+  width: 50%;
+  height: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */
