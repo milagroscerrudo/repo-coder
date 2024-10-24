@@ -61,6 +61,10 @@ header .boton-indumentaria {
   .carrusel-desktop {
     display: none;
   }
+  .container-card {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   header {
@@ -76,7 +80,7 @@ header .boton-indumentaria {
     text-align: center;
   }
 }
-.remeras-titulo {
+.titulo-productos {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
@@ -85,9 +89,9 @@ header .boton-indumentaria {
 .container-card {
   display: grid;
   grid-template-columns: 3, 1fr;
-  grid-template-rows: repeat(2, 260px);
+  grid-template-rows: repeat(2, 240px);
   grid-template-areas: "card-1 card-2 card-3" "card-1 card-2 card-3";
-  gap: 40px;
+  gap: 30px;
   margin: 20px;
 }
 
@@ -117,29 +121,29 @@ header .boton-indumentaria {
   justify-content: center;
 }
 
-/*.card-imagen{
-  width: 50%;
-  height: 70%;
-
-}*/
-.carg-titulo {
+.card-titulo {
   color: black;
-  font-size: 2%;
+  font-size: 1.3rem;
   text-align: center;
   font-family: arial;
+  margin-bottom: 2px;
 }
 
 .card-descripcion {
   color: black;
   font-size: 1rem;
   text-align: left;
+  margin-top: 1px;
+  margin-bottom: 2px;
 }
 
 .card-precio {
   color: black;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
   font-family: arial;
+  margin-top: 1px;
+  margin-bottom: 2px;
 }
 
 .card-cuotas {
@@ -147,12 +151,15 @@ header .boton-indumentaria {
   font-size: 1rem;
   text-align: center;
   font-family: arial;
+  margin-top: 1px;
+  margin-bottom: 2px;
 }
 
-@media screen and (max-width: 768px) {
-  .container-card {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-}
+/* @media screen and (max-width: 768px){
+   .container-card{
+     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+
+   }
+ } */
 
 /*# sourceMappingURL=style.css.map */

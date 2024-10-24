@@ -1,7 +1,7 @@
 @import "../utilities/variables";
 
 
-.remeras-titulo{
+.titulo-productos{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
@@ -11,13 +11,13 @@
     
     display: grid;
     grid-template-columns: (3,1fr);
-    grid-template-rows: repeat(2,250px);
+    grid-template-rows: repeat(2,240px);
 
     grid-template-areas: 
     "card-1 card-2 card-3"
     "card-1 card-2 card-3";
 
-    gap: 40px;
+    gap: 30px;
     margin: 20px;
   }
 
@@ -51,23 +51,27 @@
 
   .card-titulo{
     color: $color-negro;
-    font-size: 2%;
+    font-size: 1.3rem;
     text-align: center;
     font-family: $fuente-principal;
+    margin-bottom: 2px;
   }
 
   .card-descripcion{
     color: $color-negro;
     font-size: 1rem;
     text-align:left;
-    
+    margin-top: 1px;
+    margin-bottom: 2px;
   }
 
   .card-precio{
     color: $color-negro;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     font-family: $fuente-principal;
+    margin-top: 1px;
+    margin-bottom: 2px;
   }
 
   .card-cuotas{
@@ -75,6 +79,8 @@
     font-size: 1rem;
     text-align: center;
     font-family: $fuente-principal;
+    margin-top: 1px;
+    margin-bottom: 2px;
   }
 
  /* @media screen and (max-width: 768px){
