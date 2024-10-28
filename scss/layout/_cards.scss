@@ -89,3 +89,29 @@
     
     }
   } */
+
+  /*segunda opcion de cards*/
+  .card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+ 
+  .card-uno{
+    background-color: aquamarine;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid gray
+    
+    
+    
+  }
+
+  .card-dos{
+    
+  }
+
+  .card-tres{
+    
+
+  }
