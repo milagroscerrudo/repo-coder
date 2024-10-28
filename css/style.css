@@ -169,10 +169,26 @@ header .boton-indumentaria {
 }
 
 .card-uno {
-  background-color: aquamarine;
   padding: 1rem;
   border-radius: 1rem;
   border: 1px solid gray;
+}
+
+.card-dos {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid gray;
+}
+
+.card-tres {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid gray;
+}
+
+.imagen-producto {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
