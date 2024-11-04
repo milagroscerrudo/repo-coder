@@ -1,7 +1,41 @@
-@media (minwidht:425px){
+@media (max-width:425px){
+    
+    .header{
+        justify-items: center;
+        align-items: center;
+
+    }
+    
+    .logo-airborn{
+        width: 50%;
+        height: 50%;
+    }
+      
+    .carrusel-desktop{
+        display: none;
+    }
+      
+    .imagen-producto{
+        height: 100px;
+    }
+    
+    
     .card-container{
-     
         flex-direction: column;
+        
+    }
+
+    .card-uno{
+        
     }
   
+    .card-dos{
+       
+
+    }
+
+    .card-tres{
+        
+
+    }
 }
