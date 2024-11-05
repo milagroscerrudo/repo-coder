@@ -1,5 +1,6 @@
 @media (max-width:425px){
-    
+   
+
     .header{
         justify-items: center;
         align-items: center;
@@ -14,16 +15,16 @@
     .carrusel-desktop{
         display: none;
     }
+   
       
     .imagen-producto{
         height: 100px;
     }
     
-    
-    .card-container{
-        flex-direction: column;
-        
+    .card.container{
+
     }
+    
 
     .card-uno{
         
