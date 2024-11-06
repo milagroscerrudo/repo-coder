@@ -1,6 +1,9 @@
 @media (max-width:425px){
    
-
+    .card.container{
+        flex-direction: column !important;
+    }
+    
     .header{
         justify-items: center;
         align-items: center;
@@ -22,8 +25,9 @@
     }
     
     .card.container{
-
+        flex-direction: column !important;
     }
+    
     
 
     .card-uno{
