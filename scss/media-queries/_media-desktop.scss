@@ -16,22 +16,7 @@
         display: none;
     }
 
-    .container-publi{
-        display: grid;
-        grid-template-columns: (5,1fr);
-        grid-template-rows: repeat(6,100px);
     
-        grid-template-areas: 
-        "remeras remeras chombas chombas chombas"
-        "remeras remeras chombas chombas chombas"
-        "remeras remeras pantalones pantalones pantalones"
-        "remeras remeras pantalones pantalones pantalones"
-        "accesorios accesorios zapatos zapatos zapatos"
-        "accesorios accesorios zapatos zapatos zapatos";
-    
-        gap: 30px;
-        margin: 15px;
-    }
 
    
 }

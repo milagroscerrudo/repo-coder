@@ -1,23 +1,39 @@
 
 
 /*articulos desktop*/
+.container-publi{
+    display: grid;
+    grid-template-columns: (5,1fr);
+    grid-template-rows: repeat(6,100px);
+
+    grid-template-areas: 
+    "remeras remeras chombas chombas chombas"
+    "remeras remeras chombas chombas chombas"
+    "remeras remeras pantalones pantalones pantalones"
+    "remeras remeras pantalones pantalones pantalones"
+    "accesorios accesorios calzados calzados calzados"
+    "accesorios accesorios calzados calzados calzados";
+
+    gap: 30px;
+    margin: 15px;
+}
 .remeras{
     grid-area: remeras;
     
-    background-image: url("../multimedia/remeras.jpg");
+    background-image: url("../multimedia/remeras.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 490px;
+    
 
 }
 
 .chombas{
     grid-area: chombas;
     
-    background-image: url("../multimedia/chombas.jpg");
+    background-image: url("../multimedia/chombas.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 230px;
+    
     
 
 }
@@ -25,7 +41,7 @@
 .pantalones{
     grid-area: pantalones;
     
-    background-image: url("../multimedia/pantalones.jpg");
+    background-image: url("../multimedia/pantalones.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -35,35 +51,35 @@
 .accesorios{
     grid-area: accesorios;
     
-    background-image: url("../multimedia/accesorios.jpg");
+    background-image: url("../multimedia/accesorios.png");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-.zapatos{
-    grid-area: zapatos;
-    background-image: url("../multimedia/calzados.jpg");
+.calzados{
+    grid-area: calzados;
+    background-image: url("../multimedia/");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
 /*articulos tablet*/
-.remeras{
-    grid-area: remeras;
+.remeras-t{
+    grid-area: remeras-t;
     
-    background-image: url("../multimedia/remeras.jpg");
+    background-image: url("../multimedia/");
     background-repeat: no-repeat;
     background-size: cover;
     height: 490px;
 
 }
 
-.chombas{
-    grid-area: chombas;
+.chombas-t{
+    grid-area: chombas-t;
     
-    background-image: url("../multimedia/chombas.jpg");
+    background-image: url("../multimedia/");
     background-repeat: no-repeat;
     background-size: cover;
     height: 230px;
@@ -71,48 +87,48 @@
 
 }
 
-.pantalones{
-    grid-area: pantalones;
+.pantalones-t{
+    grid-area: pantalones-t;
     
-    background-image: url("../multimedia/pantalones.jpg");
+    background-image: url("../multimedia/");
     background-repeat: no-repeat;
     background-size: cover;
 
 
 }
 
-.accesorios{
-    grid-area: accesorios;
+.accesorios-t{
+    grid-area: accesorios-t;
     
-    background-image: url("../multimedia/accesorios.jpg");
+    background-image: url("../multimedia/");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-.zapatos{
-    grid-area: zapatos;
-    background-image: url("../multimedia/calzados.jpg");
+.zapatos-t{
+    grid-area: zapatos-t;
+    background-image: url("../multimedia/");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
 /*articulos tablet*/
-.remeras{
-    grid-area: remeras;
+.remeras-m{
+    grid-area: remeras-m;
     
-    background-image: url("../multimedia/remeras.jpg");
+    background-image: url("../multimedia/");
     background-repeat: no-repeat;
     background-size: cover;
     height: 490px;
 
 }
 
-.chombas{
-    grid-area: chombas;
+.chombas-m{
+    grid-area: chombas-m;
     
-    background-image: url("../multimedia/chombas.jpg");
+    background-image: url("../multimedia/");
     background-repeat: no-repeat;
     background-size: cover;
     height: 230px;
@@ -120,28 +136,28 @@
 
 }
 
-.pantalones{
-    grid-area: pantalones;
+.pantalones-m{
+    grid-area: pantalones-m;
     
-    background-image: url("../multimedia/pantalones.jpg");
+    background-image: url("../multimedia/");
     background-repeat: no-repeat;
     background-size: cover;
 
 
 }
 
-.accesorios{
-    grid-area: accesorios;
+.accesorios-m{
+    grid-area: accesorios-m;
     
-    background-image: url("../multimedia/accesorios.jpg");
+    background-image: url("../multimedia/");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-.zapatos{
-    grid-area: zapatos;
-    background-image: url("../multimedia/calzados.jpg");
+.zapatos-m{
+    grid-area: zapatos-m;
+    background-image: url("../multimedia/");
     background-repeat: no-repeat;
     background-size: cover;
 
