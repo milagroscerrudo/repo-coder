@@ -204,6 +204,12 @@ header {
   background-color: white;
   padding: 15px;
   border-bottom: #00193e;
+  /*
+  .relative-box{
+    position: fixed; 
+
+  }
+   */
 }
 header img {
   width: 30%;
@@ -270,9 +276,53 @@ header .boton-indumentaria {
 
 .calzados {
   grid-area: calzados;
-  background-image: url("../multimedia/");
+  background-image: url("../multimedia/calzados.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.link-remeras {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+  transition: 1s;
+}
+
+.link-remeras:hover {
+  color: #00193e;
+  margin: 2px;
+}
+
+.link-chombas {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: end;
+  margin: 5px;
+}
+
+.link-pantalones {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: start;
+  margin: 5px;
+}
+
+.link-accesorios {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.link-calzados {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: end;
+  margin: 5px;
 }
 
 /*articulos tablet*/

@@ -7,6 +7,8 @@ header{
     background-color: $color-blanco;
     padding: 15px;
     border-bottom: $color-azul;
+     
+
     img{
        width: 30%;
        padding: 5px;
@@ -34,4 +36,11 @@ header{
       .boton-indumentaria{
         color: $color-azul;
         }
+
+        /*
+      .relative-box{
+        position: fixed; 
+        
+      }
+       */
 }
