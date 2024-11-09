@@ -20,6 +20,23 @@
       height: 100px;
     }
   
-   
+    .container-publi{
+      display: grid;
+      grid-template-columns: (4,1fr);
+      grid-template-rows: repeat(8,100px);
+  
+      grid-template-areas: 
+      "remeras-t remeras-t chombas-t chombas-t "
+      "remeras-t remeras-t chombas-t chombas-t "
+      "remeras-t remeras-t chombas-t chombas-t"
+      "pantalones-t pantalones-t accesorios-t accesorios-t"
+      "pantalones-t pantalones-t accesorios-t accesorios-t"
+      "pantalones-t pantalones-t accesorios-t accesorios-t"
+      "zapatos-t zapatos-t zapatos-t zapatos-t"
+      "zapatos-t zapatos-t zapatos-t zapatos-t";
+  
+      gap: 30px;
+      margin: 15px;
+  }
 
 }
