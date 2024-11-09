@@ -3,7 +3,7 @@
 /*articulos desktop*/
 .container-publi{
     display: grid;
-    grid-template-columns: (5,1fr);
+    grid-template-columns:(5,1fr);
     grid-template-rows: repeat(6,100px);
 
     grid-template-areas: 
